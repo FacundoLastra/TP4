@@ -65,21 +65,21 @@ Defina la estructura base de un proyecto de maven.
 
 Explique los 4 stereotypes basicos y realize un diagrama de cada uno de ellos.
 
-	![foto1](https://www.arquitecturajava.com/wp-content/uploads/SpringStereotypes.png)
+![foto1](https://www.arquitecturajava.com/wp-content/uploads/SpringStereotypes.png)
 
 	@Component: Es el estereotipo general y permite anotar un bean para que Spring lo considere uno de sus objetos.
 
 	@Repository: Es el estereotipo que se encarga de dar de alta un bean para que implemente el patrón repositorio que es el encargado de almacenar datos en una base de datos o repositorio de información que se necesite. Al marcar el bean con esta anotación Spring aporta servicios transversales como conversión de tipos de excepciones.
 
-	![foto2](https://www.arquitecturajava.com/wp-content/uploads/SpringStereotypesRepository.png)
+![foto2](https://www.arquitecturajava.com/wp-content/uploads/SpringStereotypesRepository.png)
 
 	@Service : Este estereotipo se encarga de gestionar las operaciones de negocio más importantes a nivel de la aplicación y aglutina llamadas a varios repositorios de forma simultánea. Su tarea fundamental es la de agregador.
 
-	![foto3](https://www.arquitecturajava.com/wp-content/uploads/SpringStereotypesService.png)
+![foto3](https://www.arquitecturajava.com/wp-content/uploads/SpringStereotypesService.png)
 
 	@Controller : El último de los estereotipos que es el que realiza las tareas de controlador y gestión de la comunicación entre el usuario y el aplicativo. Para ello se apoya habitualmente en algún motor de plantillas o librería de etiquetas que facilitan la creación de páginas.
 
-	![foto4](https://www.arquitecturajava.com/wp-content/uploads/SpringStereotypesController.png)
+![foto4](https://www.arquitecturajava.com/wp-content/uploads/SpringStereotypesController.png)
 
 REST
 	Explique cada uno de los verbos.
@@ -117,5 +117,5 @@ REST
 			El método OPTIONS representa una solicitud de información sobre las opciones de comunicación disponibles en la cadena de solicitud / respuesta identificadas por el URI de solicitud. Este método permite al cliente determinar las opciones y / o requisitos asociados con un recurso, o las capacidades de un servidor, sin implicar una acción de recurso o iniciar una recuperación de recursos.
 
 
-![foto2](https://www.arquitecturajava.com/wp-content/uploads/SpringStereotypesRepository.png)
+
 
