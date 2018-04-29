@@ -36,7 +36,7 @@ Scopes: es una seccion dentro de <dependency> en el archivo pom.xml de maven, el
 	Es decir que con maven, basta decirle que tipo de proyecto queremos y maven generara automaticamente la estructura base.
 
 Defina la estructura base de un proyecto de maven.
-	```
+	
 	|-- pom.xml  -> Archivo de configuracion de maven, para agregar dependecias, version de programa , etc
 	|-- src -> carpeta que contendra nuestro proyecto
 	    |-- main
@@ -51,7 +51,7 @@ Defina la estructura base de un proyecto de maven.
 	                `-- autentia
 	                    `-- demoapp
 	                        `-- AppTest.java
-	```
+	
 
 ¿Cual es la diferencia entre Arquetype y Artefact?
 
@@ -65,21 +65,21 @@ Defina la estructura base de un proyecto de maven.
 
 Explique los 4 stereotypes basicos y realize un diagrama de cada uno de ellos.
 
-	!(https://www.arquitecturajava.com/wp-content/uploads/SpringStereotypes.png)
+!(https://www.arquitecturajava.com/wp-content/uploads/SpringStereotypes.png)
 
 	@Component: Es el estereotipo general y permite anotar un bean para que Spring lo considere uno de sus objetos.
 
 	@Repository: Es el estereotipo que se encarga de dar de alta un bean para que implemente el patrón repositorio que es el encargado de almacenar datos en una base de datos o repositorio de información que se necesite. Al marcar el bean con esta anotación Spring aporta servicios transversales como conversión de tipos de excepciones.
 
-	!(https://www.arquitecturajava.com/wp-content/uploads/SpringStereotypesRepository.png)
+!(https://www.arquitecturajava.com/wp-content/uploads/SpringStereotypesRepository.png)
 
 	@Service : Este estereotipo se encarga de gestionar las operaciones de negocio más importantes a nivel de la aplicación y aglutina llamadas a varios repositorios de forma simultánea. Su tarea fundamental es la de agregador.
 
-	!(https://www.arquitecturajava.com/wp-content/uploads/SpringStereotypesService.png)
+!(https://www.arquitecturajava.com/wp-content/uploads/SpringStereotypesService.png)
 
 	@Controller : El último de los estereotipos que es el que realiza las tareas de controlador y gestión de la comunicación entre el usuario y el aplicativo. Para ello se apoya habitualmente en algún motor de plantillas o librería de etiquetas que facilitan la creación de páginas.
 
-    !(https://www.arquitecturajava.com/wp-content/uploads/SpringStereotypesController.png)
+!(https://www.arquitecturajava.com/wp-content/uploads/SpringStereotypesController.png)
 
 REST
 	Explique cada uno de los verbos.
