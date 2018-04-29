@@ -117,5 +117,5 @@ REST
 			El método OPTIONS representa una solicitud de información sobre las opciones de comunicación disponibles en la cadena de solicitud / respuesta identificadas por el URI de solicitud. Este método permite al cliente determinar las opciones y / o requisitos asociados con un recurso, o las capacidades de un servidor, sin implicar una acción de recurso o iniciar una recuperación de recursos.
 
 
-
+![foto2](https://www.arquitecturajava.com/wp-content/uploads/SpringStereotypesRepository.png)
 
